@@ -1,0 +1,273 @@
+/* start media hero section */
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1024px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero .navbar .links {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero .navbar .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero h4 {
+        font-size: 18px;
+    }
+
+    .hero h3 {
+        font-size: 22px;
+        padding-top: 90px;
+    }
+
+}
+
+/* start media hero section */
+
+
+/* start media for about section */
+@media screen and (max-width:991px) {
+    .about .pic {
+        border: none;
+        width: 46%;
+        margin-right: 1%;
+        overflow: hidden;
+    }
+
+    .about .pic .img-container {
+        left: 0;
+        top: 0;
+    }
+
+
+    .about .content {
+        width: 51%;
+        padding: 0;
+    }
+
+    .about .content h2 {
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 22px;
+        margin: 0 0 15px;
+        padding-left: 13px;
+    }
+
+    .about .content .about-desc {
+        margin: 0 0 15px;
+        padding-bottom: 15px;
+        line-height: 1.3;
+        font-size: 16px;
+    }
+
+    .about .content ul li {
+        font-size: 14px;
+        margin: 0 0 16px;
+    }
+
+    .about .content ul li {
+        font-weight: 300;
+        color: #555;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about .pic {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .about .content {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .about .content {
+        padding: 0;
+    }
+
+    .about .content h2 {
+        margin-bottom: 20px;
+    }
+
+    .about .content .about-desc {
+        line-height: 1.7;
+    }
+
+    .about .content .left {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .about .content .left,
+    .about .content .right {
+        font-size: 18px;
+    }
+}
+
+/* end media for about section */
+
+
+
+/* start media for services */
+@media screen and (max-width:991px) {
+    .services .servy .item {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .services .servy .item {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 35px 25px;
+    }
+
+    .services h2 {
+        font-size: 32px;
+    }
+
+    .services .servy h3 {
+        font-size: 22px;
+    }
+}
+
+/* end media for services */
+
+
+
+/* Start Media For Portifolio section */
+@media screen and (max-width:991px) {
+    .portfolio .protfolio-item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .portfolio .protfolio-item {
+        width: 100%;
+    }
+}
+
+/* End Media For Portifolio section */
+
+
+
+/* Start media Fact section */
+@media screen and (max-width:768px) {
+    .fact .fact-item {
+        width: 100%;
+    }
+
+    .fact .fact-item i {
+        margin-bottom: 10px;
+    }
+
+    .fact .fact-item h3 {
+        margin-bottom: 5px;
+    }
+
+    .fact .fact-item h5 {
+        margin: 0;
+    }
+}
+
+/* End media Fact section */
+
+
+/*Sart media feedback section  */
+
+@media screen and (max-width:991px) {
+    .feedback .feed-content {
+        width: 100%;
+    }
+
+    .feedback .client-msg {
+        width: 70%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .feedback .client-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .feedback .client-msg {
+        width: 100%;
+    }
+}
+
+/*End media feedback section  */
+
+
+/* Start Media Blog Section */
+
+
+@media screen and (max-width:991px) {
+    .blog .blog-item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .blog .blog-item {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1050px) {
+    .blog .blog-item .blog-caption h3 {
+        font-size: 18px;
+        font-family: 'Source Sans 3', sans-serif;
+    }
+
+    .blog .blog-item .blog-caption p {
+        font-size: 15px;
+    }
+}
+
+/* End Media Blog Section */
+
+
+/* Start Media For Contact */
+@media screen and (max-width:768px) {
+    .contact form {
+        width: 100%;
+    }
+
+    .contact form .f-input input {
+        width: 100%;
+    }
+}
+
+/* End Media For Contact */
